@@ -10,13 +10,13 @@ export default function TableHeader({ headers }: TableHeaderProps) {
       <table className="min-w-full divide-y bg-customBlue">
         <thead className="bg-customBlue">
           <tr>
-            <th className="px-6 py-4 text-left text-sm font-medium capitalize tracking-wider">
+            <th className="px-6 py-4 text-left text-sm font-medium capitalize">
               <input type="checkbox" />
             </th>
             {headers.map((header, index) => (
               <th
                 key={index}
-                className="px-6 py-4 text-left text-sm font-medium  capitalize tracking-wider"
+                className="px-6 py-4 text-left text-sm font-medium  capitalize"
               >
                 {header}
               </th>

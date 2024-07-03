@@ -27,7 +27,7 @@ export default function Header() {
             <input
               type="text"
               placeholder="Search by patients..."
-              className="pl-4"
+              className="pl-4 outline-none"
             />
           </div>
         </div>
