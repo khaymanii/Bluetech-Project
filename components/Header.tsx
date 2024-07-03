@@ -14,8 +14,9 @@ export default function Header() {
             className="mr-4"
           />
           <div className="font-bold text-5xl text-blue-800">
-            Unlimi<span className="text-red-500">.</span>
+            Unlimi<span className="text-red-400">.</span>
           </div>
+
           <div className="flex items-center rounded-lg py-3 w-80 px-4 border ml-28">
             <Image
               src="/assets/search.svg"
