@@ -3,58 +3,61 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="h-auto mx-40 py-4">
-      <div className=" flex items-center justify-between">
-        <div className="flex items-center py-4">
-          <Image
-            src="/assets/logo.svg"
-            alt="logo"
-            width={60}
-            height={60}
-            className="mr-4"
-          />
-          <div className="font-bold text-5xl text-blue-800">
-            Unlimi<span className="text-red-400">.</span>
+    <div className="h-auto px-4 sm:px-6 md:px-10 lg:px-20 py-4">
+      <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center w-full md:w-auto py-4">
+          <div className="flex items-center">
+            <Image
+              src="/assets/logo.svg"
+              alt="logo"
+              width={50}
+              height={50}
+              className="md:mr-4 mr-2"
+            />
+            <div className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-800">
+              Unlimi<span className="text-red-400">.</span>
+            </div>
           </div>
-
-          <div className="flex items-center rounded-lg py-3 w-80 px-4 border ml-28">
+          <div className="flex items-center rounded-lg py-2 w-full md:w-auto md:ml-6 lg:ml-28 mt-4 md:mt-0 px-4 border">
             <Image
               src="/assets/search.svg"
               alt="search image"
-              width={20}
-              height={20}
+              width={16}
+              height={16}
             />
             <input
               type="text"
               placeholder="Search by patients..."
-              className="pl-4 outline-none"
+              className="pl-4 outline-none w-full text-sm md:text-base"
             />
           </div>
         </div>
-        <div className="flex items-center gap-4">
-          <div className="flex items-center justify-center w-12 h-12 rounded-full border border-gray-100 bg-gray-100">
+        <div className="flex items-center gap-2 sm:gap-4 mt-4 md:mt-0">
+          <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 md:w-8 md:h-8 rounded-full border border-gray-100 bg-gray-100">
             <Image
-              src="assets/bell.svg"
+              src="/assets/bell.svg"
               alt="bell icon"
-              width={25}
-              height={25}
+              width={16}
+              height={16}
+              className="md:w-6 md:h-6"
             />
           </div>
-          <div className="">
+          <div className="flex items-center">
             <Image
-              src="assets/doctor.svg"
+              src="/assets/doctor.svg"
               alt="doctor image"
-              height={36}
-              width={37}
-              className="rounded-full w-14 h-14  bg-gray-100"
+              height={30}
+              width={30}
+              className="rounded-full w-8 h-8 sm:w-10 sm:h-10 md:w-10 md:h-10 bg-gray-100"
             />
           </div>
-          <h1 className="font-medium">Deko</h1>
+          <h1 className="font-medium text-xs sm:text-sm md:text-base">Deko</h1>
           <Image
-            src="assets/downarrow.svg"
+            src="/assets/downarrow.svg"
             alt="arrow"
-            width={18}
-            height={18}
+            width={10}
+            height={10}
+            className="md:w-6 md:h-6"
           />
         </div>
       </div>
