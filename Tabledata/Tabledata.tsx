@@ -28,58 +28,58 @@ const TableData = () => {
   )[][] = [
     [
       1,
-      "T-Shirt",
+      "images/image1.svg",
       "Apparel",
       "$10.99",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      "Yes",
       "4.5",
       "Brand A",
       123,
       234,
-      12, // Replace boolean with string "Yes" or "No"
+      12,
     ],
     [
       2,
-      "Jeans",
+      "images/image2.svg",
       "Apparel",
       "$39.99",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      "Yes",
       "4.0",
       "Brand B",
       123,
       234,
-      12, // Replace boolean with string "Yes" or "No"
+      12,
     ],
     [
       3,
-      "Sneakers",
+      "images/image3.svg",
       "Footwear",
       "$59.99",
-      "No", // Replace boolean with string "Yes" or "No"
+      "No",
       "4.8",
       "Brand C",
       123,
       234,
-      12, // Replace boolean with string "Yes" or "No"
+      12,
     ],
     [
       4,
-      "Backpack",
+      "images/image4.svg",
       "Accessories",
       "$29.99",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      "Yes",
       "4.2",
       "Brand D",
       123,
       234,
-      12, // Replace boolean with string "Yes" or "No"
+      12,
     ],
     [
       5,
-      "Watch",
+      "images/image5.svg",
       "Accessories",
       "$199.99",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      "Yes",
       "4.9",
       "Brand E",
       123,
@@ -88,10 +88,10 @@ const TableData = () => {
     ],
     [
       6,
-      "Hat",
+      "images/image6.svg",
       "Apparel",
       "$14.99",
-      "No", // Replace boolean with string "Yes" or "No"
+      "No",
       "4.1",
       "Brand F",
       123,
@@ -100,10 +100,10 @@ const TableData = () => {
     ],
     [
       7,
-      "Socks",
+      "images/image7.svg",
       "Apparel",
       "$5.99",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      "Yes",
       "4.3",
       "Brand G",
       123,
@@ -112,7 +112,7 @@ const TableData = () => {
     ],
     [
       8,
-      "Laptop",
+      "images/image8.svg",
       "Electronics",
       "$899.99",
       "Yes", // Replace boolean with string "Yes" or "No"
@@ -124,7 +124,7 @@ const TableData = () => {
     ],
     [
       9,
-      "Headphones",
+      "images/image9.svg",
       "Electronics",
       "$49.99",
       "No", // Replace boolean with string "Yes" or "No"
@@ -136,7 +136,7 @@ const TableData = () => {
     ],
     [
       10,
-      "Sunglasses",
+      "images/image10.svg",
       "Accessories",
       "$19.99",
       "Yes", // Replace boolean with string "Yes" or "No"
