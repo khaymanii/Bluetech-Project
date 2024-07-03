@@ -11,8 +11,8 @@ export default function Table({ headers, data }: TableProps) {
   return (
     <div className="bg-gray-50 min-h-screen">
       <h1 className="text-2xl font-medium mx-60  py-8">Department List</h1>
-      <div className="overflow-x-auto mx-52 rounded-xl">
-        <div className="mb-8 bg-customBlue shadow sm:rounded-lg">
+      <div className="overflow-x-auto mx-52">
+        <div className="mb-8 bg-customBlue shadow  rounded-xl">
           <TableHeader headers={headers} />
         </div>
 

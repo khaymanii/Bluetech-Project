@@ -2,27 +2,29 @@ const TableData = () => {
   // Headers
   const headers: string[] = [
     "S/N",
+    "Image",
+    "SKU",
     "Name",
-    "Category",
-    "Price",
-    "In Stock",
-    "Rating",
+    "Title",
+    "Description",
     "Brand",
-    "Color",
+    "Cost Price",
+    "Quantity",
     "Size",
-    "On Sale",
   ];
 
   // Dummy data for table body (10x10 array of mixed types)
   const data: (
     | string
-    | number
+    | string
+    | string
+    | string
+    | string
+    | string
     | string
     | number
-    | string
     | number
-    | string
-    | string
+    | number
   )[][] = [
     [
       1,
@@ -32,9 +34,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.5",
       "Brand A",
-      "Red",
-      "M",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12, // Replace boolean with string "Yes" or "No"
     ],
     [
       2,
@@ -44,9 +46,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.0",
       "Brand B",
-      "Blue",
-      "32",
-      "No", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12, // Replace boolean with string "Yes" or "No"
     ],
     [
       3,
@@ -56,9 +58,9 @@ const TableData = () => {
       "No", // Replace boolean with string "Yes" or "No"
       "4.8",
       "Brand C",
-      "Black",
-      "10",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12, // Replace boolean with string "Yes" or "No"
     ],
     [
       4,
@@ -68,9 +70,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.2",
       "Brand D",
-      "Green",
-      "L",
-      "No", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12, // Replace boolean with string "Yes" or "No"
     ],
     [
       5,
@@ -80,9 +82,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.9",
       "Brand E",
-      "Silver",
-      "One Size",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12,
     ],
     [
       6,
@@ -92,9 +94,9 @@ const TableData = () => {
       "No", // Replace boolean with string "Yes" or "No"
       "4.1",
       "Brand F",
-      "Yellow",
-      "One Size",
-      "No", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12,
     ],
     [
       7,
@@ -104,9 +106,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.3",
       "Brand G",
-      "White",
-      "M",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12,
     ],
     [
       8,
@@ -116,9 +118,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.7",
       "Brand H",
-      "Gray",
-      "15 inch",
-      "No", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12,
     ],
     [
       9,
@@ -128,9 +130,9 @@ const TableData = () => {
       "No", // Replace boolean with string "Yes" or "No"
       "4.4",
       "Brand I",
-      "Black",
-      "One Size",
-      "Yes", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12,
     ],
     [
       10,
@@ -140,9 +142,9 @@ const TableData = () => {
       "Yes", // Replace boolean with string "Yes" or "No"
       "4.6",
       "Brand J",
-      "Brown",
-      "One Size",
-      "No", // Replace boolean with string "Yes" or "No"
+      123,
+      234,
+      12,
     ],
   ];
 
