@@ -12,9 +12,9 @@ export default function Header() {
               alt="logo"
               width={50}
               height={50}
-              className="md:mr-4 mr-2"
+              className="md:mr-2 mr-2"
             />
-            <div className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-800">
+            <div className="font-bold text-2xl sm:text-3xl md:text-3xl lg:text-5xl text-blue-800">
               Unlimi<span className="text-red-400">.</span>
             </div>
           </div>
