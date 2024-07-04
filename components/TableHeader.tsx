@@ -41,11 +41,11 @@ export default function TableHeader({ headers, data }: TableProps) {
                 >
                   {typeof cell === "boolean" ? (
                     <input type="checkbox" checked={cell} readOnly />
-                  ) : typeof cell === "string" && cell.startsWith("images/") ? (
+                  ) : typeof cell === "string" && cell.startsWith("https") ? (
                     <div className="flex items-center">
                       <div className="w-8 h-8 sm:w-12 sm:h-12">
                         <Image
-                          src={`/${cell}`}
+                          src={cell}
                           alt="Product Image"
                           layout="responsive"
                           width={40}

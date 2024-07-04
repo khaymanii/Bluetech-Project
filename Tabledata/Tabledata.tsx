@@ -15,7 +15,7 @@ const TableData = () => {
 
   // Dummy data for table body (10x10 array of mixed types)
   const data: (
-    | string
+    | number
     | string
     | string
     | string
