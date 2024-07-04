@@ -44,7 +44,7 @@ export default function Table() {
       <h1 className="text-2xl md:text-2xl font-medium mx-4 sm:mx-36 md:mx-32 py-8 text-center sm:text-left">
         Department List
       </h1>
-      <div className="overflow-x-auto mx-4 sm:mx-32 md:mx-28">
+      <div className="mx-4 sm:mx-32 md:mx-28">
         <TableHeader headers={headers} data={tableData} />
       </div>
     </div>

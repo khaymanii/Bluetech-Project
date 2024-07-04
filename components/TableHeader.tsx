@@ -8,17 +8,17 @@ interface TableProps {
 
 export default function TableHeader({ headers, data }: TableProps) {
   return (
-    <div className="overflow-x-auto rounded-xl">
+    <div className="overflow-x-auto scrollbar-none rounded-xl">
       <table className="min-w-full">
         <thead className="bg-customBlue">
           <tr>
-            <th className="px-6 py-4 text-left text-xs sm:text-sm md:text-xl font-medium capitalize tracking-wider">
+            <th className="px-6 py-4 text-left whitespace-nowrap text-xs sm:text-sm md:text-lg font-medium capitalize tracking-wider">
               <input type="checkbox" />
             </th>
             {headers.map((header, index) => (
               <th
                 key={index}
-                className="px-6 py-4 text-left text-xs sm:text-sm md:text-xl font-medium capitalize tracking-wider"
+                className="px-6 py-4 text-left whitespace-nowrap text-xs sm:text-sm md:text-lg font-medium capitalize tracking-wider"
               >
                 {header}
               </th>
@@ -31,13 +31,13 @@ export default function TableHeader({ headers, data }: TableProps) {
 
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
-              <td className="px-6 py-4 whitespace-nowrap text-left text-xs sm:text-sm md:text-sm font-medium tracking-wider">
+              <td className="px-6 py-6 text-left text-xs sm:text-sm md:text-sm font-medium tracking-wider">
                 <input type="checkbox" />
               </td>
               {row.map((cell, colIndex) => (
                 <td
                   key={colIndex}
-                  className="px-6 py-4 whitespace-nowrap text-left text-xs sm:text-sm md:text-sm font-medium tracking-wider"
+                  className="px-6 py-6 text-left text-xs sm:text-sm md:text-sm font-medium tracking-wider"
                 >
                   {typeof cell === "boolean" ? (
                     <input type="checkbox" checked={cell} readOnly />
