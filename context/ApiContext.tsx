@@ -35,7 +35,7 @@ export const ApiProvider = ({ children }: { children: ReactNode }) => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "http://3.88.1.181:8000/products/public/catalog?supplier=FragranceX&search=EAU%20SAUVAGE%20by%20Christian%20Dior"
+          "http://3.88.1.181:8000/products/public/catalog?supplier=FragranceX&first=7&last=30&search=EAU%20SAUVAGE"
         );
         const result = await response.json();
         console.log("API Response:", result); // Debugging log
